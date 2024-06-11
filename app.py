@@ -24,8 +24,8 @@ def main():
         # split in to chunks with Langgchain
         text_splitter = CharacterTextSplitter(
          separator = "\n",
-         chunk_size = 200,
-         chunk_overlap = 20,
+         chunk_size = 500,
+         chunk_overlap = 50,
          length_function = len
          )
         chunks = text_splitter.split_text(text)
