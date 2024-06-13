@@ -15,8 +15,10 @@ def main():
     print("///// API key: ///////////////////////")
     print(os.getenv("OPENAI_API_KEY"))
     print("//////////////////////////////////////")
-    st.set_page_config(page_title = "Ask your PDF")
-    st.header("Ask your PDF 💬")
+    st.set_page_config(page_title = "Ask your PDF AI pre-trained ChatBot")
+    st.header("Igor's LANGCHAIN RAG PDF Pre-Trained AI ChatBot  - Ask your PDF 💬")
+    st.markdown("<div style='text-align: center; width: auto'><a href='https://github.com/IgorMelanoff/LANGCHAIN-CHAT-PDF-AICHATBOT.git'>Github Repo</a></div>",unsafe_allow_html=True)
+    st.markdown("<div style='text-align: center; width: auto'><a href='https://www.linkedin.com/in/igor-emelyanov-74555043/'>Linked In</a></div>",unsafe_allow_html=True)
     
     #uploading file
     print("///// Uploading file ///////////////////////")
