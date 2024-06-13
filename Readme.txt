@@ -12,6 +12,7 @@ python3 -m pip install --upgrade pip
 
 5.Install packages for Langchain and streamLit
 pip3 install langchain pypdf2 python-dotenv streamlit
+pip install faiss-cpu
 
 
 6. Git ignore file create -> got folder
@@ -62,3 +63,5 @@ ENV/
 .DS_Store
 
 /////////////////
+
+8. https://platform.openai.com/account/api-keys
