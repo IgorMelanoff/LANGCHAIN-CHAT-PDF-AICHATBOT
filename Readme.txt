@@ -1,3 +1,9 @@
+Example of Question ot RAG:
+Does Igor  in follow PDF resume has any AI experience?
+Can you eright the cover letter for Automation Developer in Testing for Igor Emelyanov using the following PDF resume?
+
+
+///////////Insatllation PYTHON evironment//////////
 1. Install VS
 2. Install Python Ms Extention
 3. Check in VS Terminal:
@@ -14,12 +20,14 @@ python3 -m pip install --upgrade pip
 pip3 install langchain pypdf2 python-dotenv streamlit
 pip install faiss-cpu
 
+6. create hidden file for API keys
+touch .env
 
-6. Git ignore file create -> got folder
+7. Git ignore file create -> got folder
 
 touch .gitignore
 
-7. Just copy to gitignore 
+8. Just copy to gitignore 
 ////////////
 
 # Byte-compiled / optimized / DLL files
@@ -64,4 +72,7 @@ ENV/
 
 /////////////////
 
-8. https://platform.openai.com/account/api-keys
+9. https://platform.openai.com/account/api-keys
+
+
+10.streamlit run app.py
