@@ -19,6 +19,9 @@ python3 -m pip install --upgrade pip
 5.Install packages for Langchain and streamLit
 pip3 install langchain pypdf2 python-dotenv streamlit
 pip install faiss-cpu
+pip install openai
+pip install -U langchain-community
+pip install tiktoken
 
 6. create hidden file for API keys
 touch .env
